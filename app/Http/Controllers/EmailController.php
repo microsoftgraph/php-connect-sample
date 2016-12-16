@@ -32,7 +32,7 @@ use Microsoft\Graph\Model;
 class EmailController extends Controller 
 { 
 	/**
-	* Queries Microsoft Grpah to get the current logged-in
+	* Queries Microsoft Graph to get the current logged-in
 	* user's info
 	*
 	* @return Microsoft\Graph\Model\User The current user
