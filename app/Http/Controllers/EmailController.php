@@ -97,7 +97,7 @@ class EmailController extends Controller
 
 		//Create a new message
 		$mail = new Model\Message();
-		$mail->setSubject("Test Email")
+		$mail->setSubject(Constants::EMAIL_SUBJECT)
 			 ->setBody($body)
 			 ->setSender($sender)
 			 ->setFrom($sender)
