@@ -75,6 +75,15 @@ cURL can't verify the validity of the Microsoft certificate when trying to issue
 	curl.cainfo = "path_to_cacert/cacert.pem"
 	```
 
+## What's Next?
+
+This sample helps get you registered and making calls to Microsoft Graph. You can now try different calls using the Microsoft Graph library for PHP. Explore the [Microsoft Graph documentation](https://graph.microsoft.io/en-us/docs) to see what you can do with your favorite Microsoft products. You can try:
+
+1. Copying a OneDrive file to another folder
+2. Performing cell functions with Excel
+3. Navigating your organization's directory
+4. Paging through a list of emails
+
 ## Contributing ##
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
