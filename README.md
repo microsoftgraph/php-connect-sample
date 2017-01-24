@@ -39,7 +39,7 @@ This sample requires the following:
 
 2. Open the sample solution in your favorite IDE.
 
-3. In the graph.php file in the config directory, replace the CLIENT_ID and CLIENT_SECRET placeholder values with the application ID and password you copied during registration.
+3. In the graph.php file in the config directory, replace the ENTER_YOUR_CLIENT_ID and ENTER_YOUR_SECRET placeholder values with the application ID and password you copied during registration.
 
 4. Install the project's dependencies: 
 
