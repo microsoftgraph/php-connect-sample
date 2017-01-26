@@ -27,7 +27,7 @@ This sample requires the following:
 
 6. Upder **Platforms**, choose **Add platform**.
 7. Choose **Web**.
-8. Make sure the **Allow Implicit Flow** check box is selected, and enter http://localhost:8002/login as the Redirect URI. 
+8. Make sure the **Allow Implicit Flow** check box is selected, and enter http://localhost:8000/oauth.php as the Redirect URI. 
 
     The allow Implicit Flow option enables the hybrid flow. During authentication, this enables the app to receive both sign-in info (the id_token) and artifacts (in this case, an authorization code) that the app can use to obtain an access token.
     
@@ -47,9 +47,9 @@ This sample requires the following:
     
 5. Rename .env.example to .env and run ```php artisan key:generate```
     
-6. Run ```php artisan serve --port 8002``` to run the sample.
+6. Run ```php artisan serve``` to run the sample.
 
-7. Navigate to `http://localhost:8002` in your web browser.
+7. Navigate to `http://localhost:8000` in your web browser.
 
 8. Sign in with your account and grant the requested permissions.
 

@@ -28,7 +28,7 @@ class Constants
 {
     const CLIENT_ID          = 'ENTER_YOUR_CLIENT_ID';
     const CLIENT_SECRET      = 'ENTER_YOUR_SECRET';
-    const REDIRECT_URI       = 'http://localhost:8002/login';
+    const REDIRECT_URI       = 'http://localhost:8000/oauth.php';
     const AUTHORITY_URL      = 'https://login.microsoftonline.com/common';
     const AUTHORIZE_ENDPOINT = '/oauth2/v2.0/authorize';
     const TOKEN_ENDPOINT     = '/oauth2/v2.0/token';

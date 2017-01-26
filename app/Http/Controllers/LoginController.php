@@ -33,7 +33,7 @@ class LoginController extends Controller
 	/**
 	* Logs the user in to his or her Microsoft account
 	*/
-	public function login()
+	public function oauth()
 	{
 		//We store user name, id, and tokens in session variables
 		if (session_status() == PHP_SESSION_NONE) {
@@ -86,7 +86,7 @@ class LoginController extends Controller
 		        $_SESSION['preferred_username'] = $jsonAccessTokenPayload['preferred_username'];
 		        $_SESSION['given_name'] = $jsonAccessTokenPayload['name'];
 
-		        header('Location: http://localhost:8002/email');
+		        header('Location: http://localhost:8000/email');
 		        exit();
 		    } catch (League\OAuth2\Client\Provider\Exception\IdentityProviderException $e) {
 		        echo 'Something went wrong, couldn\'t get tokens: ' . $e->getMessage();
