@@ -105,7 +105,7 @@ class EmailController extends Controller
 
 		//Send the mail through Graph
 		$request = $graph->createRequest("POST", "/me/sendMail")
-						 ->attachBody($mail);
+						 ->attachBody(array("message" => $mail));
 		$request->execute();
 
 		//Return to the email view
