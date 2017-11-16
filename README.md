@@ -90,7 +90,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 
 ## Questions and comments
 
-We'd love to get your feedback about the PHP Connect sample. You can send your questions and suggestions to us in the [Issues](https://github.com/microsoftgraph/php-connect-rest-sample/issues) section of this repository.
+We'd love to get your feedback about the PHP Connect sample. You can send your questions and suggestions to us in the [Issues](https://github.com/microsoftgraph/php-connect-sample/issues) section of this repository.
 
 Questions about Microsoft Graph development in general should be posted to [Stack Overflow](http://stackoverflow.com/questions/tagged/Office365+API). Make sure that your questions or comments are tagged with [MicrosoftGraph] and [API].
   
