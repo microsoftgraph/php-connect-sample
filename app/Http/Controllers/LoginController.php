@@ -13,8 +13,6 @@
  */
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
-use Microsoft\Graph\Graph;
 use Microsoft\Graph\Connect\Constants;
 
 /**
