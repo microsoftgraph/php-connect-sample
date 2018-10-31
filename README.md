@@ -1,4 +1,10 @@
-# Microsoft Graph Connect Sample for PHP
+# [ARCHIVED] Microsoft Graph Connect Sample for PHP
+
+## IMPORTANT
+
+**This project is being archived and replaced with the [Build PHP apps with Microsoft Graph](https://github.com/microsoftgraph/msgraph-training-phpapp). As part of the archival process, we're closing all open issues and pull requests.**
+
+**You can continue to use this sample "as-is", but it won't be maintained moving forward. We apologize for any inconvenience.**
 
 This sample shows how to connect a PHP web app to a Microsoft work or school (Azure Active Directory) or personal (Microsoft) account using the Microsoft Graph API to send an email. It uses the Microsoft Graph [PHP Client Library](https://github.com/microsoftgraph/msgraph-sdk-php) to work with data returned by Microsoft Graph. In addition, the sample uses the Office Fabric UI for styling and formatting the user experience.
 
